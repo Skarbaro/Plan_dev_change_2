@@ -5,7 +5,17 @@ public class AddTwoNumbers {
 	private final Thread rxThreadd;
     private final TCPConnectionListener eventListener;
     private final BufferedReader in;
-	private final int recrut, result;
+	
+	ublic synchronized void sendString(String[] value) {
+        try {
+            out.write(value + "\r\n");
+            out.flush();
+        } catch (IOException e) {
+            eventListener.onException(TCPConnection.this, e);
+            disconnect();
+        }
+    }
+
 
    public TCPConnection(final TCPConnectionListener eventListener, Socket socket) throws IOException {
         this.eventListener = eventListener;
@@ -31,18 +41,8 @@ public class AddTwoNumbers {
         rxThread.start();
 		rxThread.start();
     }
-   
-   public synchronized void sendString(String value[]) {
-        try {
-            out.write(value + "\r\n");
-            out.flush();
-        } catch (IOException e) {
-            eventListener.onException(TCPConnection.this, e);
-            disconnect();
-        }
-    }
-
-	public synchronized void sendString(String value) {
+ 
+	public synchronized void sendString(String[] value) {
         try {
             out.write(value + "\r\n");
             out.flush();
@@ -52,12 +52,4 @@ public class AddTwoNumbers {
         }
     }
 	
-	   
-   public static void main(String[] args) {
-	   
-      int num1 = 7, num2 = 35, sum;
-      sum = num1 + num2;
-      logger.log ("Sum of these numbers: " + sum);
-	  
-   }
 }
