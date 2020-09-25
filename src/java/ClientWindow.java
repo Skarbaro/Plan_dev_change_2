@@ -6,15 +6,7 @@ public class AddTwoNumbers {
     private final TCPConnectionListener eventListener;
     private final BufferedReader in;
 	
-	ublic synchronized void sendString(String[] value) {
-        try {
-            out.write(value + "\r\n");
-            out.flush();
-        } catch (IOException e) {
-            eventListener.onException(TCPConnection.this, e);
-            disconnect();
-        }
-    }
+	private int abr;
 
 
    public TCPConnection(final TCPConnectionListener eventListener, Socket socket) throws IOException {
