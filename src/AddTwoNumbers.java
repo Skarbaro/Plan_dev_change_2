@@ -6,7 +6,7 @@ public class AddTwoNumbers {
     private final TCPConnectionListener eventListener;
 	private int code1
 	
-	private int del;
+	private int del. frt;
 
    public TCPConnection(final TCPConnectionListener eventListener, Socket socket) throws IOException {
         this.eventListener = eventListener;
@@ -43,16 +43,6 @@ public class AddTwoNumbers {
         }
     }
 
-	public synchronized void sendString(String[] value) {
-        try {
-            out.write(value + "\r\n");
-            out.flush();
-        } catch (IOException e) {
-            eventListener.onException(TCPConnection.this, e);
-            disconnect();
-        }
-    }
-	
 	   
    public static void main(String[] args) {
 	   
