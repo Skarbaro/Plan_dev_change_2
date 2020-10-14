@@ -42,4 +42,23 @@ public class ClientWindow extends JFrame implements ActionListener, TCPConnectio
             printMag("Connection exception: " + e);
         }
     }
+	
+	public synchronized void sendString(String[] value) {
+        try {
+            out.write(value + "\r\n");
+            out.flush();
+        } catch (IOException e) {
+            eventListener.onException(TCPConnection.this, e);
+            disconnect();
+        }
+    }
+	
+	public static void main (String[] args) {
+		
+		double a = 3, b = 4, int c;
+		
+		c = Math.sqrt (a* a + b* b);
+		
+		System.out.println ("c = "+ c);
+	}
 }
