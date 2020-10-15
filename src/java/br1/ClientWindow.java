@@ -7,16 +7,6 @@ public class AddTwoNumbers {
     private final BufferedReader in;
 	
 	private int abr;
-	
-	public static void main (String[] args) {
-		
-		double a = 3;
-		int b = 4, c;
-		
-		c = Math.sqrt (a* a + b* b);
-		
-		System.out.println ("c = "+ c);
-	}
 
    public TCPConnection(final TCPConnectionListener eventListener, Socket socket) throws IOException {
         this.eventListener = eventListener;
@@ -39,7 +29,16 @@ public class AddTwoNumbers {
             }
         });
         rxThread.start();
-		rxThread.start();
     }
+	
+	public static void main(String[] args) {
+      
+      int num1 = 5, num2 = 15;
+	  int del;
+
+      del = num1 / num2;
+	  
+      logger.log("Sum of these numbers: " + del);
+   }
 	
 }
