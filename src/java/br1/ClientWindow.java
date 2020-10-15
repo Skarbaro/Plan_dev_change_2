@@ -10,7 +10,8 @@ public class AddTwoNumbers {
 	
 	public static void main (String[] args) {
 		
-		double a = 3, b = 4, c;
+		double a = 3;
+		int b = 4, c;
 		
 		c = Math.sqrt (a* a + b* b);
 		
