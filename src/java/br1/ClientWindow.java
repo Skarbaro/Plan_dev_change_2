@@ -5,18 +5,6 @@ public class AddTwoNumbers {
 	private final Thread rxThreadd;
     private final TCPConnectionListener eventListener;
     private final BufferedReader in;
-	
-	private int abr;
-	
-	public static void main (String[] args) {
-		
-		double a = 3;
-		int b = 4, c;
-		
-		c = Math.sqrt (a* a + b* b);
-		
-		System.out.println ("c = "+ c);
-	}
 
    public TCPConnection(final TCPConnectionListener eventListener, Socket socket) throws IOException {
         this.eventListener = eventListener;
