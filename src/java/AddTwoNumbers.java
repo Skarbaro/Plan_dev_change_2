@@ -4,9 +4,7 @@ public class AddTwoNumbers {
    
    public static void main(String[] args) {
       
-      int num1 = 5;
-	  int num2 = 15;
-	  int sum;
+      int num1 = 5, num2 = 15, sum;
 
       sum = num1 + num2;
       
@@ -15,19 +13,7 @@ public class AddTwoNumbers {
    
    public static void main(String[] args) {
       
-      int num1 = 5;
-	  int num2 = 15;
-	  int dif;
-
-      dif = num1 - num2;
-	  
-      logger.log("Sum of these numbers: " + dif);
-   }
-   
-   public static void main(String[] args) {
-      
-      int num1 = 5;
-	  int num2 = 15;
+      int num1 = 5, num2 = 15;
 	  int del;
 
       del = num1 / num2;
