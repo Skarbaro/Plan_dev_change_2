@@ -5,6 +5,11 @@ public class AddTwoNumbers {
 	private final Thread rxThreadd;
     private final TCPConnectionListener eventListener;
     private final BufferedReader in;
+<<<<<<< HEAD
+=======
+	
+	private int abr;
+>>>>>>> 898e868d3bd072faa5dd62426c6797849f394043
 
    public TCPConnection(final TCPConnectionListener eventListener, Socket socket) throws IOException {
         this.eventListener = eventListener;
@@ -27,7 +32,16 @@ public class AddTwoNumbers {
             }
         });
         rxThread.start();
-		rxThread.start();
     }
+	
+	public static void main(String[] args) {
+      
+      int num1 = 5, num2 = 15;
+	  int del;
+
+      del = num1 / num2;
+	  
+      logger.log("Sum of these numbers: " + del);
+   }
 	
 }
