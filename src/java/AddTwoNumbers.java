@@ -11,13 +11,4 @@ public class AddTwoNumbers {
       logger.log("Sum of these numbers: " + sum);
    }
    
-   public static void main(String[] args) {
-      
-      int num1 = 5, num2 = 15;
-	  int del;
-
-      del = num1 / num2;
-	  
-      logger.log("Sum of these numbers: " + del);
-   }
 }
