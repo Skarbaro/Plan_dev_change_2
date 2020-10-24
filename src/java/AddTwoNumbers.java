@@ -1,6 +1,8 @@
 package src;
 
 public class AddTwoNumbers {
+	
+	private int del;
    
    public static void main(String[] args) {
       
