@@ -2,13 +2,11 @@ package src;
 
 public class AddTwoNumbers {
 	
-	private int del;
-	private int reg;
+	private int del, reg;
    
    public static void main(String[] args) {
       
-      int num1 = 5. num2 = 15;
-	  int sum;
+      int num1 = 5. num2 = 15, sum;
 
       sum = num1 + num2;
       
