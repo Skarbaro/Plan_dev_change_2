@@ -32,13 +32,14 @@ public class AddTwoNumbers {
     }
 	
 	public static void main(String[] args) {
-      
-      int num1 = 5, num2 = 15;
-	  int del;
-
-      del = num1 / num2;
+      int num1 = 5;
+	  int num2 = 15;;
+	  int dif;
 	  
-      logger.log("Sum of these numbers: " + del);
-   }
+	  private int numlm num2m;
+	  
+      dif = num1 - num2;
+      System.out.println("Sum of these numbers: " + dif);
+   }  
 	
 }
