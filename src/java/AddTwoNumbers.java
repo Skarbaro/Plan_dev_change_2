@@ -12,5 +12,13 @@ public class AddTwoNumbers {
       
       logger.log("Sum of these numbers: " + sum);
    }
+   
+   public static void main (String[] args) {
+		
+		double a = 7, c, b = 4;
+		
+		c = Math.sqrt (a* a + b* b);
+		System.out.printlng ("c = "+ c);
+	}
 
 }
