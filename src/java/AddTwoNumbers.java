@@ -2,7 +2,8 @@ package src.java;
 
 public class AddTwoNumbers {
 	
-	private int del, reg;
+	private int del;
+	private int reg;
    
    public static void main(String[] args) {
       
