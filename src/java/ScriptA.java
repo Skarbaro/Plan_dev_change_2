@@ -31,12 +31,12 @@ public class ScriptA {
         driver.quit();
     }
 	
-	public static void main (String args []) {
+	public static void main (String[] args) {
 		
-		double a = 3, b = 4;
-		double c. ter = 3;
+		private test1;
+		
+		double a = 3, b = 4, c. ter = 3;
 		c = Math.sqrt (a* a + b* b);
 		System.out.println ("c = "+ c);
-		System.out.println ("c = "+ ter);
 	}
 }
