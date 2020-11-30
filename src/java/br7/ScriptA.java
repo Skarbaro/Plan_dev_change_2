@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ScriptA {
 	
-	private test2;
+	private test2, ter;
 
     public static void main(String[] args) {
 
