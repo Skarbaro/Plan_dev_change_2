@@ -2,9 +2,8 @@ package src.java;
 
 public class DifNumbers {
 
-   public static void main(String[] args[]) {
-      int num1 = 5, num2 = 15;
-	  int dif, def;
+   public static void main(String args[]) {
+      int num1 = 5, num2 = 15, dif, def;
       dif = num1 - num2;
       System.out.println("Sum of these numbers: " + dif);
 	  System.out.println("Sum of these numbers: " + def);
@@ -12,7 +11,7 @@ public class DifNumbers {
    
    public static void main(String args[]) {
 	   
-	   private int tel;
+	   private int tel, get;;
       int red1 = 5, red2 = 10, rif;
       rif = red1 - red2;
       System.out.println("Sum of these numbers: " + rif);
