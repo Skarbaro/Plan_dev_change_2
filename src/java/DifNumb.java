@@ -1,6 +1,8 @@
 package src.java;
 
 public class DifNumbers {
+	
+	private int deo;
 
    public static void main(String args[]) {
       int num1 = 5, num2 = 15, dif;
