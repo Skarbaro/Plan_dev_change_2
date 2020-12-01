@@ -4,7 +4,8 @@ function makearray(n) {
          this.length = n;
          for(var i = 1; i <= n; i++)
              this[i] = 0;
-         return this;
+         return this;\
+		 var c;
      }
 
      hexa = new makearray(16);
