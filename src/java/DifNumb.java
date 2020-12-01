@@ -12,8 +12,7 @@ public class DifNumbers {
    
    public static void main(String args[]) {
 	   
-	   private int tel, get;;
-      int red1 = 5, red2 = 10, rif;
+	   private int tel, get, red1 = 5, red2 = 10, rif;
       rif = red1 - red2;
       System.out.println("Sum of these numbers: " + rif);
    }
