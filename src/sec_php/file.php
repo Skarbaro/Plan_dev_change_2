@@ -19,6 +19,7 @@
     define('TakenBy',                                       'Connect Web Order');   // Taken By field within Sage
     define('TermsAgreed',                                   'true');                // Set 'terms agreed' for a customer download
     define('DiscountDescription',                           'Website Discount');    // Description for the Net Value discount
+	define('C_DEFAULT_CUSTOMER_PASSWORD',           'e6b0ffce8401dd6a2658541d0f7cbb22:1c');     // Default password that new customers should have (password1).
 
     // Automatically change the Tax Rate after January 4th 2011
     if (date('Y-m-d') >= date('Y-m-d', strtotime('2011-01-04')))

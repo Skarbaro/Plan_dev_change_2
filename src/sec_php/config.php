@@ -51,6 +51,7 @@ define('C_CARRIAGE_TAX_ZERO',                   '0');                    // Defa
 define('C_GLOBAL_NOMINAL',                      '');                    // Default Global Nominal Code to set against the order in Sage
 define('C_GLOBAL_DETAILS',                      '');                    // Default Global Details to set against the order in Sage
 define('C_GLOBAL_TAX',                          '');                    // Default Global Tax Code to set against the order in Sage
+define('C_DEFAULT_CUSTOMER_PASSWORD',           'e6b0ffce8401dd6a2658541d0f7cbb22:1c');     // Default password that new customers should have (password1).
 define('C_GLOBAL_DEPARTMENT',                   '');                    // Default Global Department to set against the order in Sage
 
 
