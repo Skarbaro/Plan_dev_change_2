@@ -4,6 +4,15 @@ import infrastructure.config.utils.StringUtils;
 
 public class TestApp {
 	
+	int verifyAdmin(String password) {
+
+	if (password.equals("Mew!")) {
+		return 0;
+	}
+	//Diagnostic Mode
+	return 1;
+}
+	
 	private int selv;
 	
 	public static void main(String args[]) {
@@ -14,5 +23,6 @@ public class TestApp {
         StringUtils randomString = new StringUtils();
         System.out.println(randomString.randomString("alphanumeric", 50));
     }
+	
 
 }
