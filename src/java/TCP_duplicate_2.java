@@ -6,6 +6,8 @@ public class TCPConnection {
     private final TCPConnectionListener eventListener;
     private final BufferedReader in;
     private final BufferedWriter out;
+	private	String PASSWORD_KEY = "server.password";
+	private String password = prop.getProperty(PASSWORD_KEY);
     public TCPConnection(TCPConnectionListener eventListener, String ipAddr, int port) throws IOException {
         this(eventListener, new Socket(ipAddr, port));
     }
@@ -51,4 +53,5 @@ public class TCPConnection {
             disconnect();
         }
     }
+
 }
