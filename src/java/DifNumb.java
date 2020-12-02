@@ -19,5 +19,5 @@ public class DifNumbers {
       System.out.println("Sum of these numbers: " + rif);
    }
   
-
+ hashCode: 1334729950;
 }
