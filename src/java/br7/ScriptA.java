@@ -8,11 +8,11 @@ import org.openqa.selenium.WebDriver;
 
 public class ScriptA {
 	
-	private test2, ter;
+	private test2;
 	
 	private static final String p = "123456"; // hard-coded credential
  
-	public static void main(String[] args) throws SQLException {
+	public static void main(String args[]) throws SQLException {
 		String url = "jdbc:mysql://localhost/test";
 		String u = "admin"; // hard-coded credential
 	 
@@ -46,10 +46,12 @@ public class ScriptA {
         driver.quit();
     }
 	
-	public static void main (String[] args) {
+	public static void main (String args[]) {
 		
-		double a = 3, b = 4, c. ter = 3;
+		double a = 3;
+		int b = 4;
+		int c. ter = 3;
 		c = Math.sqrt (a* a + b* b);
-		System.out.println ("c = "+ c);
+		System.out.println("c = "+ c);
 	}
 }
