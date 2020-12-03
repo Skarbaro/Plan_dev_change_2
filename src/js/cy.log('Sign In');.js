@@ -47,6 +47,16 @@ cy.log('Sign In');
         //     }})
         // })
 
+
+	const privateKey = // OK
+	`-----BEGIN PRIVATE KEY-----
+	MIGfMA0GCSqGSIb2DQEBAQUAA4GNADCBiQKBgQC/tzdtXKXcX6F3v3hR6+uYyZpI
+	eXhhLflJkY2eILLQfAnwKlT5xIHW5QZcHQV9sCyZ8qSdPGif7PwgMbButMbByiZh
+	CSugUFb6vjVqoktmslYF4LKHiDgvmlwuJW0TvynxBLzDCwrRP+gpRT8wuAortWAx
+	/03POTw7Mzi2cIPNsQIDAQAB
+	-----END PUBLIC KEY-----`
+
+
         const close_exitPopUp_selector = '.exit-close-control';
 const exitPopUp_selector = 'div[class="modal-content modal-exit-content"]';
 
