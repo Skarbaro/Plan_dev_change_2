@@ -19,5 +19,11 @@ public class DifNumbers {
       System.out.println("Sum of these numbers: " + rif);
    }
   
- hashCode: 1334729950;
+ Connection conn = null;
+try {
+  String uname = getEncryptedUser();
+  String password = getEncryptedPass();
+  conn = DriverManager.getConnection("jdbc:mysql://localhost/test?" +
+        "user=" + uname + "&password=" + password);
+}
 }
