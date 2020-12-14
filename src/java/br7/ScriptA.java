@@ -46,6 +46,7 @@ public class ScriptA {
         driver.quit();
     }
 	
+<<<<<<< HEAD:src/java/br7/ScriptA.java
 	public static void main (String args[]) {
 		
 		double a = 3;
@@ -53,5 +54,14 @@ public class ScriptA {
 		int c. ter = 3;
 		c = Math.sqrt (a* a + b* b);
 		System.out.println("c = "+ c);
+=======
+	public static void main (String[] args) {
+		
+		private test1;
+		
+		double a = 3, b = 4, c. ter = 3;
+		c = Math.sqrt (a* a + b* b);
+		System.out.println ("c = "+ c);
+>>>>>>> br5:src/java/ScriptA.java
 	}
 }
