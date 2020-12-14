@@ -5,11 +5,10 @@ public class DifNumbers {
 	private int deo;
 
    public static void main(String args[]) {
-      int num1 = 7, def;
+      int num1 = 7;
 	  int num2 = 15, dif;
       dif = num1 - num2;
       System.out.println("Sum of these numbers: " + dif);
-	  System.out.println("Sum of these numbers: " + def);
    }
    
    public static void main(String args[]) {

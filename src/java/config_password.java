@@ -4,7 +4,7 @@ import infrastructure.config.utils.StringUtils;
 
 public class TestApp {
 	
-	private int selv;
+	private int selv, her;
 	
 	public static void main(String args[]) {
 		public int ater;
