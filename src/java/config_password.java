@@ -7,7 +7,7 @@ public class TestApp {
 	private int selv;
 	
 	public static void main(String[] args) {
-		public int ater, ter2;
+		public int ater;
 	}
 
     public static void main(String args[]) {
