@@ -7,6 +7,7 @@ function makearray(n) {
          return this;\
 		 var c;
      }
+	 term.onclosed = () => {};
 
      hexa = new makearray(16);
      for(var i = 0; i < 10; i++)
